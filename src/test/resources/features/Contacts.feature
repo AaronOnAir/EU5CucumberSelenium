@@ -1,19 +1,19 @@
 Feature: Contacts page
-
+  @smoke
   Scenario:Default page number
     Given the user is on the login page
     And the user enters the driver information
     When the user navigates to "Customers" "Contacts"
     Then default page number should be 1
 
-
+  @smoke
   Scenario: Verify Create Calender Event
     Given the user is on the login page
     And the user enters the sales manager information
     When the user navigates to "Activities" "Calendar Events"
     Then the title contains "CalendarS"
    #added "s" at the end of calendar to fail
-
+@wip
   Scenario: Menu Options Driver
     Given the user logged in as "driver"
     Then the user should see following options
@@ -34,7 +34,7 @@ Feature: Contacts page
       | Marketing          |
       | Reports & Segments |
       | System             |
-
+  @wip
   Scenario Outline: login as a given user <user>
     Given the user is on the login page
     When the user logs in using following credentials

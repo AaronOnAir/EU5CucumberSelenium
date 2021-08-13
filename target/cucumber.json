@@ -1,0 +1,303 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-13T02:24:56.242Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1780000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Menu Options Driver",
+        "description": "",
+        "id": "contacts-page;menu-options-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8657000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user logged in as \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5074000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see following options",
+            "match": {
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-13T02:25:11.962Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1501000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "login as a given user user10",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user-\u003cuser\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1965000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45946000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user logs in using following credentials",
+            "match": {
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user10"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Toney"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Hegmann"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-13T02:26:04.534Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "login as a given user storemanager85",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user-\u003cuser\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2128000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9788000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user logs in using following credentials",
+            "match": {
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "storemanager85"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Marcella"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Huels"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Contacts page",
+    "description": "",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  }
+]
